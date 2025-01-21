@@ -1,0 +1,27 @@
+/* .header style with Flexbox */
+.header {
+    border-color: black;
+    border-style: dotted;
+    width: 100%;
+    height: 50px;
+    
+    display: flex;              /* Enable Flexbox */
+    justify-content: space-between; /* Space between children */
+    align-items: center;         /* Vertically center the children */
+    padding: 0 5px;             /* Padding to the left and right */
+}
+
+.nav-items {
+    margin-left: auto;  /* Push this element to the right */
+}
+
+.nav-items ul {
+    
+    list-style-type:disc;
+    display: flex; /* Ensures the items are displayed horizontally */
+    gap: 20px; /* Adds space between each list item */
+}
+
+.nav-items li {
+    cursor: pointer; /* Optional: makes items look clickable */
+}
